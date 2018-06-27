@@ -13,18 +13,17 @@
 <body>
     <div class="table-heading">
         <h1>Umbraco Elements</h1>
-        <small>v7.11.0</small>
         <section class="slider-checkbox" title="show/hide non-core elements">
-                <input type="checkbox" id="toggle" checked/>
-                <label class="label" for="toggle"></label>
+            <input type="checkbox" id="toggle" checked/>
+            <label class="label" for="toggle"></label>
         </section>
-        </div>
+    </div>
 
 
     <div class="element-table">
+        <!--
         <div class="heading"></div>
         <div class="col-headers">
-            <!--
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -35,8 +34,10 @@
             <div>8</div>
             <div>9</div>
             <div>10</div>
-            <div>11</div> -->
+            <div>11</div> 
         </div>
+        -->
+
         <!-- bit group -->
         <div class="heading">
             Bit
@@ -83,7 +84,7 @@
         <div class="heading">Text</div>
         <div class="simple-group">
             <div>
-                <div class="label">Lb</div>
+                <div class="label">L</div>
                 <div class="title">Label</div>
                 <span class="weight">1</span>
                 <span class="number">6</span>
@@ -131,7 +132,7 @@
             <a class="non-core" href="https://our.umbraco.com/projects/backoffice-extensions/sir-trevor/" target="_blank">
                 <div class="label">Stv</div>
                 <div class="title">Sir Trevor</div>
-                <span class="weight">?</span>
+                <span class="weight">2</span>
                 <span class="number">13</span>
             </a>
         </div>
@@ -217,7 +218,7 @@
             <a class="non-core" href="https://our.umbraco.com/projects/backoffice-extensions/nupickers/" target="_blank">
                 <div class="label">Nu</div>
                 <div class="title">Nu Pickers</div>
-                <span class="weight">-</span>
+                <span class="weight">42</span>
                 <span class="number">27</span>
             </a>
         </div>
@@ -264,10 +265,10 @@
             <a class="non-core" target="_blank" href="https://our.umbraco.com/projects/backoffice-extensions/multi-url-picker/">
                 <div class="label">Rjp</div>
                 <div class="title">RJP Multi URL Picker</div>
-                <span class="weight">-</span>
+                <span class="weight">2</span>
                 <span class="number">37</span>
             </a>
-            <a class="non-core" target="_blank" href="https://our.umbraco.com/projects/website-utilities/meganav/"> 
+            <a class="non-core" target="_blank" href="https://our.umbraco.com/projects/website-utilities/meganav/">
                 <div class="label">Mn</div>
                 <div class="title">Meganav</div>
                 <span class="weight">2</span>
@@ -297,7 +298,7 @@
                 <span class="number">42</span>
             </div>
             <!-- this doesn't exist (yet) -->
-            <div class="non-core">
+            <div class="non-core" title="this one doesn't actually exist? - should it?">
                 <div class="label">Ug</div>
                 <div class="title">User Group Picker</div>
                 <span class="weight">?</span>
@@ -336,13 +337,13 @@
 
 
         <!-- collections -->
-        <div class="heading">Collections</div>
+        <div class="heading">Complex</div>
         <div class="simple-group">
             <a class="non-core grid-third" target="_blank" href="https://our.umbraco.com/projects/backoffice-extensions/terratype/">
                 <div class="label">Tt</div>
                 <div class="title">Terratype</div>
                 <div class="number">53</div>
-                <div class="weight">?</div>
+                <div class="weight">32</div>
             </a>
         </div>
         <div class="multi-group">
@@ -352,7 +353,6 @@
                 <span class="number">55</span>
                 <span class="weight">3</span>
             </a>
-
 
             <a class="non-core" target="_blank" href="https://github.com/umco/umbraco-property-list">
                 <div class="label">Pl</div>
@@ -374,6 +374,12 @@
                 <span class="weight">6</span>
                 <span class="number">60</span>
             </div>
+            <a class="non-core" target="_blank" href="https://github.com/umco/umbraco-tuple">
+                <div class="label">Sc</div>
+                <div class="title">Stacked Content</div>
+                <span class="weight">2</span>
+                <span class="number">59</span>
+            </a>
             <div>
                 <div class="label">Gr</div>
                 <div class="title">Grid Layout</div>
@@ -382,6 +388,7 @@
             </div>
         </div>
 
+        <!--
         <div class="simple-group last-row">
             Single Values
         </div>
@@ -394,57 +401,71 @@
         <div class="complex-group last-row">
             Complex Structures
         </div>
-    </div>
-    <div class="grid-table">
-        <div class="heading">
-            Grid
+        -->
+
+        <div class="grid-gap">
+            <div>Grid Elements</div>
         </div>
 
-        <div class="grid-row">
-
+        <div class="heading"></div>
+        <div class="grid-row four-col">
+        </div>
+        <div class="grid-row one-col">
             <div>
                 <div class="label">gRTE</div>
                 <div class="title">Rich text editor</div>
+                <div class="number">71</div>
             </div>
-
+        </div>
+        <div class="grid-row three-col">
             <div>
                 <div class="label">gImg</div>
                 <div class="title">Image</div>
+                <div class="number">72</div>
             </div>
             <div>
                 <div class="label">gMc</div>
                 <div class="title">Macro</div>
+                <div class="number">73</div>
             </div>
             <div>
                 <div class="label">gEm</div>
                 <div class="title">Embed</div>
+                <div class="number">74</div>
             </div>
+        </div>
+        <div class="grid-row four-col">
             <div>
                 <div class="label">gHl</div>
                 <div class="title">Headline</div>
+                <div class="number">75</div>
             </div>
             <div>
-                <div class="label">qQ</div>
+                <div class="label">gQ</div>
                 <div class="title">Quote</div>
+                <div class="number">76</div>
             </div>
-
-            <div class="non-core">
+            <a class="non-core" href="https://our.umbraco.com/projects/backoffice-extensions/doc-type-grid-editor/" target="_blank">
                 <div class="label small">Dtg</div>
                 <div class="title">DocType Grid Editor</div>
-                <span class="weight">?</span>
-                <span class="number">71</span>
-            </div>
-            <div class="non-core">
+                <span class="weight">5</span>
+                <span class="number">78</span>
+            </a>
+            <a class="non-core" href="https://our.umbraco.com/projects/backoffice-extensions/leblender/" target="_blank">
                 <div class="label">Lb</div>
                 <div class="title">LeBlender</div>
-                <span class="weight">?</span>
-                <span class="number">72</span>
-            </div>
+                <span class="weight">9</span>
+                <span class="number">79</span>
+            </a>
         </div>
     </div>
     <div class="credits">
-        Based on <a href="http://tooorangey.co.uk/posts/the-lee-and-marc-show-atomic-design-in-umbraco/">The atomic design talk</a> by <a href="http://twitter.com/marcemarc" target="_blank">@marcemarc</a> and <a href="http://twitter.com/leekelleher" target="_blank">@leekelleher</a>
-        adapted by <a href="http://twitter.com/kevinjump/" target="_blank">@kevinjump</a>
+        Based on
+        <a href="http://tooorangey.co.uk/posts/the-lee-and-marc-show-atomic-design-in-umbraco/">The atomic design talk</a> by
+        <a href="http://twitter.com/marcemarc" target="_blank">@marcemarc</a> and
+        <a href="http://twitter.com/leekelleher" target="_blank">@leekelleher</a>
+        adapted by
+        <a href="http://twitter.com/kevinjump/" target="_blank">@kevinjump</a>
     </div>
 
     <script src="grid.js"></script>
