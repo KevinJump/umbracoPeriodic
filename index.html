@@ -6,21 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="grid.css?v1" />
     <title>Umbraco Elements</title>
 </head>
 
 <body>
     <div class="table-heading">
-        <h1>Umbraco Elements</h1>
-        <section class="slider-checkbox" title="show/hide non-core elements">
-            <input type="checkbox" id="toggle" checked/>
-            <label class="label" for="toggle"></label>
-        </section>
+        <div>
+
+        </div>
+        <div>
+            <h1>Umbraco Elements</h1>
+        </div>
+        <div>
+            <div class="label-grid">
+                <div class="key-title">Key</div>
+                <div class="simple">Single</div>
+                <div class="mix">Mixed</div>
+                <div class="multi">Multi</div>
+                <div class="complex">Object</div>
+                <div class="simple non-core grid-second">Non Core</div>
+                <div class="grid-fifth">
+                    <section class="slider-checkbox" title="show/hide non-core elements">
+                        <input type="checkbox" id="toggle" checked/>
+                        <label class="label" for="toggle"></label>
+                    </section>
+
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <div class="element-table">
+        <!-- col numbers  -->
         <!--
         <div class="heading"></div>
         <div class="col-headers">
@@ -34,7 +53,7 @@
             <div>8</div>
             <div>9</div>
             <div>10</div>
-            <div>11</div> 
+            <div>11</div>
         </div>
         -->
 
@@ -339,6 +358,13 @@
         <!-- collections -->
         <div class="heading">Complex</div>
         <div class="simple-group">
+            <a href="" class="non-core grid-second">
+                <div class="label">En</div>
+                <div class="title">Editor Notes</div>
+                <span class="number"></span>
+                <span class="weight">6</span>
+            </a>
+
             <a class="non-core grid-third" target="_blank" href="https://our.umbraco.com/projects/backoffice-extensions/terratype/">
                 <div class="label">Tt</div>
                 <div class="title">Terratype</div>
@@ -388,28 +414,12 @@
             </div>
         </div>
 
-        <!--
-        <div class="simple-group last-row">
-            Single Values
-        </div>
-        <div class="mix-group last-row">
-            Mixed
-        </div>
-        <div class="multi-group last-row">
-            Multiple Values
-        </div>
-        <div class="complex-group last-row">
-            Complex Structures
-        </div>
-        -->
-
         <div class="grid-gap">
-            <div>Grid Elements</div>
+            <div class="grid-title">Grid Elements</div>
         </div>
 
         <div class="heading"></div>
-        <div class="grid-row four-col">
-        </div>
+        <div class="grid-row four-col"></div>
         <div class="grid-row one-col">
             <div>
                 <div class="label">gRTE</div>
@@ -460,12 +470,18 @@
         </div>
     </div>
     <div class="credits">
-        Based on
-        <a href="http://tooorangey.co.uk/posts/the-lee-and-marc-show-atomic-design-in-umbraco/">The atomic design talk</a> by
-        <a href="http://twitter.com/marcemarc" target="_blank">@marcemarc</a> and
-        <a href="http://twitter.com/leekelleher" target="_blank">@leekelleher</a>
-        adapted by
-        <a href="http://twitter.com/kevinjump/" target="_blank">@kevinjump</a>
+        <div>v1.0</div>
+        <div>
+            Based on
+            <a href="http://tooorangey.co.uk/posts/the-lee-and-marc-show-atomic-design-in-umbraco/">The atomic design talk</a> by
+            <a href="http://twitter.com/marcemarc" target="_blank">@marcemarc</a> and
+            <a href="http://twitter.com/leekelleher" target="_blank">@leekelleher</a>
+            adapted by
+            <a href="http://twitter.com/kevinjump/" target="_blank">@kevinjump</a>
+        </div>
+        <div>
+            <a href="posters/elements_v1_0.png" target="_blank">png version</a>
+        </div>
     </div>
 
     <script src="grid.js"></script>
